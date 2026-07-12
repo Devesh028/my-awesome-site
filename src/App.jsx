@@ -1,4 +1,5 @@
 import './App.css';
+import AuthPanel from './AuthPanel';
 
 const navItems = ['Story', 'Craft', 'Launch'];
 
@@ -53,6 +54,8 @@ function App() {
             </a>
           </div>
         </div>
+
+        <AuthPanel />
 
         <section className="feature-panel" id="features" aria-label="Shelfera highlights">
           <div className="feature-grid">
